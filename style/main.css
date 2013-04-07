@@ -1,0 +1,166 @@
+body	{
+	font-family: 'Open Sans', sans-serif;
+	}
+.navbar	{
+	height: 100px;
+	}
+.navbar-inner	.container	{
+	width: 960px;
+	}
+.navbar	.brand	{
+	padding: 20px 20px 0px;
+	}
+.navbar-inner	a	{
+	font-weight: bold;
+	font-size: 12px;
+	margin: auto 10px;
+	text-transform: uppercase;
+	}
+.navbar .nav > li > a	{
+	color: #737a86;
+	}
+.intro	{
+	margin: 101px auto auto ;
+	vertical-align: middle;
+	}
+
+.container	{
+	width: 960px;
+	}
+h2	{
+	width: 100%;
+	border-bottom: 1px solid #d0e2ed;
+	padding: 10px 0 ;
+	margin: 20px 0 ;
+	color: #006cb7;
+	font-weight: 400;
+	}
+h4	{
+	font-weight: 400;
+	}
+h3 {
+	color: #8499a7;
+	font-weight: 300;
+	font-size: 26px;
+	}
+.span3, .span3.last	{
+	margin-right: 45px;
+	
+	}
+.span3.last	{
+	margin-right: 0;
+	}
+.span3	img	{
+	float: left;
+	margin: 10px 10px 5px 0;
+	}
+.span3 span	{
+	color: #006cb7;
+	display: block;	
+	font-weight: 600;
+	font-size: 14px;
+	margin: 16px 0 0px 0 ;
+	}
+.span3 i	{
+	font-size: 14px;
+	display: block;
+	margin-bottom: 8px;
+}
+.empty	{
+	height: 50px;	
+	}
+.span4	{
+	margin: 0;
+	float: right;
+	line-height: 16px;
+	}
+.span6	{
+	margin-top: 30px;
+	}
+a.twitter	{
+	background: url(../images/twitter.png) no-repeat left ;
+	display: block;
+	float: left;
+	padding-left: 20px;
+	margin-top: 5px;
+}
+
+div.footer	{
+	background-color: #006cb7;
+	color: #fff;
+	font-size: 16px;
+}
+
+div.footer	.span5	{
+	float: left;
+	margin: 30px auto 30px 0;
+}
+	div.footer	.span5	h3	{
+		color: #fff;
+		font-size: 32px;
+		font-weight: 200;
+	}
+	div.footer	.span5	h5	{
+		font-size: 16px;
+		font-weight: 600;
+		margin-top: 30px;
+	}
+	div.footer	.span5	span	{
+		display: block;
+		padding-left: 30px;
+		margin-bottom: 10px;
+	}
+		div.footer	.span5	span.phone	{
+			background: url(../images/phone.png) no-repeat left;
+		}
+		div.footer	.span5	span.email	{
+			background: url(../images/env.png) no-repeat left;
+		}
+		div.footer	.span5	span.pin	{
+			background: url(../images/pin.png) no-repeat left;
+			height: 24px;
+			margin-bottom: 0;
+		}
+		div.footer	.span5	span.adrs	{
+			font-size: 13px;
+			margin-top: 0;
+		}
+	div.footer	.span5	a	{
+		color: #fff;
+	}
+	div.footer	.span5	textarea	{
+		width: 430px;
+		height: 80px;
+		border: 1px solid #0060a3;
+	}
+	div.footer	.span5	input	{
+		border: 1px solid #0060a3;
+	}
+	div.footer	.span5	.btn	{
+		color: #006cb7;
+		margin-left: 385px;
+	}
+#team .span3{
+	margin-bottom: 10px;
+}
+.intro{
+	text-align: center;
+	height: 386px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

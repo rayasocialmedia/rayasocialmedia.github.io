@@ -1,4 +1,8 @@
-rayasocialmedia.github.io
+About
 =========================
 
 RSM Website
+
+License:
+--------
+See LICENSE for more details.
