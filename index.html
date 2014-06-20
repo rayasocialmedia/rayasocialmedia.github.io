@@ -1,241 +1,833 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>RAYA Social Media</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <title>Raya Social Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Le styles -->
-    <link href="style/bootstrap.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-	<link href="style/main.css" rel="stylesheet">
+  <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+  <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+  <!--script src="js/less-1.3.3.min.js"></script-->
+  <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
 
-	<!-- Le scripts -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/application.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/jquery.fancybox.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+  //smooth scroll for home page
+      $(document).ready(function(e) {
+
+        $('.nav a').bind('click', function(e) {
+            e.preventDefault();
+            target = this.hash;
+            console.log(target);
+            $.scrollTo(target, 1000);
+        });
+    });
+</script>
+
+</head>
+
+<body>
+<div class="scrollup"><b>↑</b></div>
+  <div class="row clearfix" id="home">
+    <div class="col-md-12 column">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><img src="img/raya_social_media_logo.png"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#products">Products</a>
+            </li>
+            <li>
+              <a href="#about">About us</a>
+            </li>
+            <li>
+              <a href="#clients">Our Clients</a>
+            </li>
+            <li>
+              <a href="#contact">Contact us</a>
+            </li>
+<!--
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+<ul class="dropdown-menu">
+<li>
+<a href="#">Action</a>
+</li>
+<li>
+<a href="#">Another action</a>
+</li>
+<li>
+<a href="#">Something else here</a>
+</li>
+<li class="divider">
+</li>
+<li>
+<a href="#">Separated link</a>
+</li>
+<li class="divider">
+</li>
+<li>
+<a href="#">One more separated link</a>
+</li>
+</ul>
+</li>
+-->
+</ul>
+<!--
+<form class="navbar-form navbar-left" role="search">
+<div class="form-group">
+<input type="text" class="form-control">
+</div> <button type="submit" class="btn btn-default">Submit</button>
+</form>
+-->
+<!--
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="#">Link</a>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+<ul class="dropdown-menu">
+<li>
+<a href="#">Action</a>
+</li>
+<li>
+<a href="#">Another action</a>
+</li>
+<li>
+<a href="#">Something else here</a>
+</li>
+<li class="divider">
+</li>
+<li>
+<a href="#">Separated link</a>
+</li>
+</ul>
+</li>
+</ul>
+-->
+</div>
+
+</nav>
+</div>
+</div>
+
+<!-- carousel -->
+<div class="row clearfix">
+  <div class="col-md-12 column">
+    <div class="carousel slide" id="carousel-52038">
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#carousel-52038">
+        </li>
+        <li data-slide-to="1" data-target="#carousel-52038">
+        </li>
+        <li data-slide-to="2" data-target="#carousel-52038">
+        </li>
+      </ol>
+      <div class="carousel-inner">
+        
+      <div class="item active">
+          <!--<img alt="" src="">-->
+          <div class="carousel-caption">
+              <h2>
+                Get Recognized on the
+              </h2>
+              <h1>
+                <span class="light_blue">Digital</span> Map Today
+              </h1>
+              <p>
+                <div class="learn_more">
+                  <a href="services.html">learn more</a>
+                </div>
+              </p>
+          </div>
+      </div>
+
+      <div class="item">
+          <!--<img alt="" src="">-->
+          <div class="carousel-caption">
+              <h2>
+                Get Real Results
+              </h2>
+              <h1>
+                don’t just get a fact sheet
+              </h1>
+              <p>
+                <div class="learn_more">
+                  <a href="services.html">learn more</a>
+                </div>
+              </p>
+          </div>
+      </div>
+
+      <div class="item">
+          <!--<img alt="" src="">-->
+          <div class="carousel-caption">
+              <h2>
+                Stand out of the Crowd
+              </h2>
+              <h1>
+                with your <span class="light_blue">Digital</span> presence
+              </h1>
+              <p>
+                <div class="learn_more">
+                  <a href="services.html">learn more</a>
+                </div>
+              </p>
+          </div>
+      </div>
+
+
+      </div> <a class="left carousel-control" href="#carousel-52038" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-52038" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
       
-  </head>
+      <!-- services -->
+      <div class="row clearfix rsm_section" id="services">
+            <h1>One Stop</h1>
+            <h2>Multiple Solutions</h2>
+            <p class="txt_contents">
+              We study how users behave, react, consume and interact with interfaces, brand messages, search, advertising and media interactions. <a href="services.html">read more</a>
+            </p>
 
-  <body>
-  	<div class="navbar navbar-fixed-top">
-  	  <div class="navbar-inner">
-  	  <div class="container">
-  	    <a class="brand" href="#"><img src="images/logo.png" alt="" /></a>
-  	    <ul class="nav pull-right">
-  	      <li class="active"><a href="javascript:void(0);" id="home-nav">Home</a></li>
-  	      <li><a href="javascript:void(0);" id="about-nav">About</a></li>
-  	      <li><a href="javascript:void(0);" id="projects-nav">Projects</a></li>
-  	      <li><a href="javascript:void(0);" id="jobs-nav">Jobs</a></li>
-  	      <li><a href="javascript:void(0);" id="team-nav">Team</a></li>
-  	      <li><a href="javascript:void(0);" id="contactus-nav">Contact us</a></li>
-  	    </ul>
-  	    </div>
-  	  </div>
-  	</div>
-  	<div class="intro" id="home">
-  		<img src="images/nassya-intro.png" alt="" />
-  		<img src="images/intro-osharek.png" alt="" style="display:none;"/>
-  	</div>
-  	<div class="container">
-  		<div class="row" id="about">
-  	        <div class="span10">
+            <div class="col-md-4 column">
+              <div class="service_box"><img src="img/research_icon.png"></div>
+              <h2>Research<br>&Insight</h2>
+              <div class="learn_more">
+                <a href="services.html">learn more</a>
+              </div>
+            </div>
+            
+            <div class="col-md-4 column">
+              <div class="service_box"><img src="img/digital_icon.png"></div>
+              <h2>Digital<br>Strategy</h2>
+              <div class="learn_more">
+                <a href="services.html">learn more</a>
+              </div>
+            </div>
+            
+            <div class="col-md-4 column">
+              <div class="service_box"><img src="img/solutions_icon.png"></div>
+              <h2>Technical<br>Solutions</h2>
+              <div class="learn_more">
+                <a href="services.html">learn more</a>
+              </div>
+            </div>
 
-  	          <h2>About us</h2>
-  	          <p>Raya Social Media, One of the newest subsidiaries of Raya Holding focused on enabling social interaction using online and mobile technologies. In Raya Social Media, we spread over dynamic innovation to find new interaction paradigms significantly enhancing and merging practices between the online and offline world to deliver positive impact on our daily life. 
-  	          </p>
-  	        </div>
-  	      </div>
-  	      <div class="empty"></div>
-		<div class="row" id="projects">
-		    <div class="span10">
-		      <h2>Projects</h2>
-		    </div>
-		    <div class="span6">
-		    	<img src="images/osharek-logo.png" alt="" />
-		      <h3>Connects you with people in your location
-		      who share your interests</h3>
-		      <p>Egypt’s first Social Network, OshareK brings together people who share common interests and allows them to interact on a comprehensive, collective and fun platform! OshareK is the one-stop hub for sharing, interacting and getting together based on mutual interest. It is a unique chance for users to engage with a wide-range of user-generated content relevant to their issues of concern and location. 
-		      </p>
-		   </div>
-		    <div class="span4">
-		    	<img src="images/osharek-design.png" alt="" />
-		    </div>
-		    
-		  </div>
-		<div class="row">
-		    <div class="span10">
-		      <h2></h2>
-		    </div>
-		    <div class="span6">
-		    	<img src="images/nassya-logo.png" alt="" />
-		      <h3>It’s all about the neighborhood</h3>
-		      <p>Nassya is a unique experience that brings real neighborhoods to life in the online world! It is an exclusive platform where neighbors can interact more easily, explore new things in the neighborhood, and dig out true sense of belonging…a chance to revive lost community loyalty and aspiration… Nassya is real life seen with a fresh, inspiring and fun eye!
-		      </p>
-		   </div>
-		    <div class="span4">
-		    	<img src="images/nassya-design.png" alt="" />
-		    </div>
-		    
-		  </div>
-		<div class="row">
-		    <div class="span10">
-		      <h2></h2>
-		    </div>
-		    <div class="span6">
-		    	<img src="images/epart-logo.png" alt="" />
-		      <h3>Empower the People... Trust the Government</h3>
-		      <p>Twasol E-Participation platform enables governments to pay attention to what their citizens have to say and respond to their requests, as well as involving citizens in the decision making process. It is a true dialogue between the governments and their citizens.
-Twasol is a way for both citizens and governments to co-operate; where citizens can see an added value and governments are empowering and including wide sectors of their societies.</p>
-<p>Questions? Contact us.</p>
-		   </div>
-		    <div class="span4">
-		    	<img src="images/epart-design.png" alt="" />
-		    </div>
-		    
-		  </div>
-		<div class="empty"></div>
-		<div class="row" id="jobs">
-  	        <div class="span10">
+      </div>
 
-  	          <h2>Jobs</h2>
-  	          <p>
-  	          We are looking for talented people, who are seeking great opportunity to shine, have passion towards open source technologies, and have remarkable achievements in the following fields: <br><br>
-  	          	- UI/UX Design <br>
-  	          	- Software Development <br>
-  	          <br>
-  	          If you feel that you are qualified for such a challenging job, send your resume at <a href="mailto:hr@rayasocialmedia.com">hr@rayasocialmedia.com</a>
-  	          </p>
-  	        </div>
-  	    </div>
-  	    <div class="empty"></div>
-		<div class="row" id="team">
-		    <div class="span10">
-		      <h2>RSM Team</h2>
-		    </div>
-		   	<div class="span3">
-		    	<img src="images/wahby.png" alt="" />
-		    		<span>Mohamed Wahby</span>
-		    		<i>CEO</i>
-		    		<a href="https://twitter.com/mwahby7" class="twitter-follow-button" data-show-count="true">Follow @mwahby7</a>
-		   </div>
-		   <div class="span3">
-		    	<img src="images/sabry.png" alt="" />
-		    		<span>Sabry Eissa</span>
-		    		<i>Financial Manager</i>
-		   </div>
-		   <div class="span3 last">
-		    	<img src="images/mireille.png" alt="" />
-		    		<span>Mireille Barsoum</span>
-		    		<i>Marketing Manager</i>
-		    		<a href="https://twitter.com/MireilleBarsoum" class="twitter-follow-button" data-show-count="true">Follow @MireilleBarsoum</a>
-		   </div>
-		   <div class="span3">
-		    	<img src="images/omar.png" alt="" />
-		    		<span>Omar Abdel-Wahab</span>
-		    		<i>Technology Manager</i>
-		    		<a href="https://twitter.com/owahab" class="twitter-follow-button" data-show-count="true">Follow @owahab</a>
-		   </div>
-		   <div class="span3">
-		    	<img src="images/eslam.png" alt="" />
-		    		<span>Eslam Foad Hindawi</span>
-		    		<i>Senior Software Developer</i>
-		    		<a href="https://twitter.com/Eslam_Foad" class="twitter-follow-button" data-show-count="true">Follow @Eslam_Foad</a>
-		   </div>
-		   <div class="span3 last">
-		    	<img src="images/ramy.png" alt="" />
-		    		<span>Ramy Khater</span>
-		    		<i>Senior Software Developer</i>
-		    		<a href="https://twitter.com/rominkhater" class="twitter-follow-button" data-show-count="true">Follow @rominkhater</a>
-		   </div>
-		   <div class="span3">
-		    	<img src="images/yousry.png" alt="" />
-		    		<span>Ahmed Yousry</span>
-		    		<i>Senior Software Developer</i>
-		    		<a href="https://twitter.com/ahmed__yousry" class="twitter-follow-button" data-show-count="true">Follow @ahmed__yousry</a>
-		   </div>
-		   
-		   <div class="span3">
-		    	<img src="images/dina.png" alt="" />
-		    		<span>Dina Alashram</span>
-		    		<i>Process  &amp; Quality Manager</i>
-		    		<a href="https://twitter.com/DinaElAshram" class="twitter-follow-button" data-show-count="true">Follow @DinaElAshram</a>
-		   </div>
-		   <div class="span3 last">
-		    	<img src="images/usama.png" alt="" />
-		    		<span>Usama Wagih</span>
-		    		<i>UI/UX Designer</i>
-		    		<a href="https://twitter.com/usamawa" class="twitter-follow-button" data-show-count="true">Follow @usamawa</a>
-		   </div>
-		   <div class="span3">
-		    	<img src="images/karim.png" alt="" />
-		    		<span>Kareem Diefallah</span>
-		    		<i>Content Team Leader</i>
-		    		<a href="https://twitter.com/Diefallah" class="twitter-follow-button" data-show-count="true">Follow @Diefallah</a>
-		   </div>
-		   <div class="span3">
-		    	<img src="images/amira.png" alt="" />
-		    		<span>Amira Enany</span>
-		    		<i>Content Editor</i>
-		    		<a href="https://twitter.com/AEnany" class="twitter-follow-button" data-show-count="true">Follow @AEnany</a>
-		   </div>
-		  </div>
-		  <div class="empty"></div>
-		  <div class="row">
-		  	<div class="span10">
-		      <h2>RSM Alumnus</h2>
-		    </div>
-		    <div class="span3">
-		    	<img src="images/bahaa.png" alt="" />
-		    		<span>Bahaa Galal</span>
-		    		<i>Senior Software Developer</i>
-		    		<a href="https://twitter.com/BahaaGalal" class="twitter-follow-button" data-show-count="true">Follow @BahaaGalal</a>
-		   </div>
-		   <div class="span3">
-		    	<img src="images/mostafa_ali.jpg" alt="" />
-		    		<span>Mostafa Aly</span>
-		    		<i>Adoption Manager</i>
-		    		<a href="https://twitter.com/Mostafa_Aly" class="twitter-follow-button" data-show-count="true">Follow @Mostafa_Aly</a>
-		   </div>
-		   <div class="span3 last">
-		    	<img src="images/ahmed_yousef.jpg" alt="" />
-		    		<span>Ahmed Yousef</span>
-		    		<i>Marketing Manager</i>
-		    		<a href="https://twitter.com/ahmedadelyousef" class="twitter-follow-button" data-show-count="true">Follow @ahmedadelyousef</a>
-		   </div>
-    	  </div>
+  <!-- products -->
+  <div class="row clearfix rsm_section" id="products">
+
+    <h1>we are proud of</h1>
+    <p class="txt_contents">
+      We spread over dynamic innovation to find new interaction paradigms significantly enhancing and merging practices between the online and offline world to deliver positive impact on our daily life.
+    </p>
+    <div class="col-md-4 column">
+      <div class="flip"> 
+        <div class="card"> 
+          <div class="face front"> 
+            <a href="products.html#hatwkhod"><img src="img/hatwkhod_logo.png"></a>
+          </div> 
+          <div class="face back"> 
+            Hatw5od.com is the first online library in Egypt that provides a unique book rental system...
+            <div class="more_btn"><a href="products.html#hatwkhod">learn more</a></div>
+          </div> 
+        </div> 
+      </div>
     </div>
-    <div class="empty"></div>
-    <div class="footer">
-    	<div class="container">
-    		<div class="row" id="contactus">
-    		    <div class="span5">
-    		      <h3>We'd love to hear from you!</h3>
-    		      <h5>GIVE US A CALL</h5>
-    		      <span class="phone">+202 3827 6000</span>
-    		      <span class="email"><a href="mailto:info@rayasocialmedia.com">info@rayasocialmedia.com</a></span>
-    		   </div>
-    		   <div class="span5">
-    		   	<div class="empty"></div>
-    		   	<h5>HERE WE ARE</h5>
-    		      <span class="pin">Raya Social Media</span>
-    		      <span class="adrs">26th July St., Touristic Zone,
-    		      6th of October, 12568 Egypt</span>
-    		   </div>
-    		   <!--
-    		    <div class="span5">
-    		    	 <div class="empty"></div>
-    		    	<h5>MAIL FORM</h5>
-    		    	<input type="text" placeholder="Full Name">
-    		    	<input type="text" placeholder="Email">
-    		    	<textarea rows="3"></textarea>
-    		    	<button class="btn" type="button">Send</button>
-    		    </div>-->
-    		    
-    		  </div>
-    	</div>
+    <div class="col-md-4 column">
+      <div class="flip"> 
+        <div class="card"> 
+          <div class="face front"> 
+            <a href="products.html#nassya"><img src="img/nassya_logo.png"></a>
+          </div> 
+          <div class="face back"> 
+            The Neighborhood Social Network.
+            <div class="more_btn"><a href="products.html#nassya">learn more</a></div>
+          </div> 
+        </div> 
+      </div>
     </div>
-    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
-  </body>
+    <div class="col-md-4 column">
+      <div class="flip"> 
+        <div class="card"> 
+          <div class="face front"> 
+            <a href="products.html#tawasol"><img src="img/tawasol_logo.png"></a>
+          </div> 
+          <div class="face back"> 
+            Empower the People...Trust the Government
+            <div class="more_btn"><a href="products.html#tawasol">learn more</a></div>
+          </div> 
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <!-- portfolio -->
+  <div class="row clearfix rsm_section" id="clients">
+        <h1>Our Happy Clients</h1>
+        <p class="txt_contents">
+          It is not about where you are NOW .. it is about where you will be
+        </p>
+        
+        <div class="col-md-3 column">
+              <a class="fancybox" href="img/rcc.jpg" data-fancybox-group="gallery" title="RCC انجح معنا campaign"><img src="img/rcc.jpg" alt="" /></a>
+        </div>
+        
+        <div class="col-md-3 column">
+              <a class="fancybox" href="img/ovio.jpg" data-fancybox-group="gallery" title="Ovio restaurant facebook campaign"><img src="img/ovio.jpg" alt="" /></a>
+        </div>
+        
+        <div class="col-md-3 column">
+              <a class="fancybox" href="img/cachimba.jpg" data-fancybox-group="gallery" title="Cachimba restaurant and cafe social media campaign"><img src="img/cachimba.jpg" alt="" /></a>
+        </div>
+        
+        <div class="col-md-3 column">
+              <a class="fancybox" href="img/rayaholding.jpg" data-fancybox-group="gallery" title="Raya holding online digital campaign"><img src="img/rayaholding.jpg" alt="" /></a>
+        </div>
+  </div>
+
+
+  <!-- the team -->
+  <div class="row clearfix rsm_section" id="about">
+
+    <h1>The team</h1>
+    <p class="txt_contents">
+      Raya Social Media, One of the newest subsidiaries of Raya Holding focused on enabling social interaction using online and mobile technologies.
+      Each and every one of our team represents the spirit of our company...We are driven, committed, and talented. 
+    </p>
+
+    <!-- row -->
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/mohamed_wahby.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Mohamed Wahby</div>
+            <div class="team_position">CEO</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/mwahby7" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/sabry.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Sabry Eissa</div>
+            <div class="team_position">Financial Manager</div>
+            <div class="team_about">
+
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/mireille.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Mireille Barsoum</div>
+            <div class="team_position">Marketing Manager</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/MireilleBarsoum" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+<!-- end of row -->
+
+
+    <!-- row -->
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/eslam.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Eslam Foad Hindawi</div>
+            <div class="team_position">Team Leader</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/Eslam_Foad" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/ramy.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Ramy Khater</div>
+            <div class="team_position">Team Leader</div>
+            <div class="team_about">
+
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+            <a href="https://twitter.com/rominkhater" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/dina.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Dina Alashram</div>
+            <div class="team_position">Process & Quality Manager</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/DinaElAshram" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+<!-- end of row -->
+
+
+
+    <!-- row -->
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/kareem_diefallah.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Kareem Diefallah</div>
+            <div class="team_position">Content Team Leader</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/Diefallah" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/amira.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Amira Enany</div>
+            <div class="team_position">Copywriter</div>
+            <div class="team_about">
+
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+            <a href="https://twitter.com/AEnany" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/hana.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Hana El Meligy</div>
+            <div class="team_position">Creative Designer</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/HanaEMeligy" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+<!-- end of row -->
+
+
+    <!-- row -->
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/jailan.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Jailan Yousri</div>
+            <div class="team_position">Social Media Account Manager</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/jaila_yousri" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/loay_youssef.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Loay Youssef</div>
+            <div class="team_position">Creative Designer</div>
+            <div class="team_about">
+
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+            <a href="https://twitter.com/loayyoussef" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/abu_shady.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Mohamed Abu Shady</div>
+            <div class="team_position">Developer</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+
+        </div>
+      </div><!-- end of team box -->
+    </div>
+<!-- end of row -->
+
+
+    <!-- row -->
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/israa.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Israa Osama</div>
+            <div class="team_position">HR Manager</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+          <a href="https://twitter.com/Israa_Osama" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/serougy.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Mohamed EL Serougy</div>
+            <div class="team_position">Senior Sales Account Manager</div>
+            <div class="team_about">
+
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+            <a href="https://twitter.com/serougy" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/farouk.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Farouk Hosni</div>
+            <div class="team_position">UI/UX Designer</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+            <a href="https://twitter.com/FaroukHossni" target="_blank"><img src="img/twitter_ico.png"></a>
+        </div>
+      </div><!-- end of team box -->
+    </div>
+<!-- end of row -->
+
+
+    <!-- row -->
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/yaaqoub.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Mohamed Yaaqoub</div>
+            <div class="team_position">Developer</div>
+            <div class="team_about">
+              
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/karim.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Karim Ali</div>
+            <div class="team_position">UI/UX Designer</div>
+            <div class="team_about">
+
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+    <div class="col-md-4 column">
+      <div class="team_box clearfix">
+        <ul>
+          <li class="team_img">
+            <img src="img/sherif.jpg">
+          </li>
+
+          <li>
+            <div class="team_name">Ahmed Sherif</div>
+            <div class="team_position">Developer</div>
+            <div class="team_about">
+
+            </div>
+          </li>
+        </ul>
+        <div class="social_btn">
+
+        </div>
+      </div><!-- end of team box -->
+    </div>
+
+<!-- end of row -->
+
+
+
+  </div><!-- end of team section -->
+
+  <!-- contribute section -->
+  <div class="row clearfix rsm_section">
+        <div class="col-md-4 column">
+                  <div class="flip_contribute"> 
+                    <div class="card"> 
+                      <div class="face front"> 
+                        <h3>We are Hiring</h3>
+                      </div> 
+                      <div class="face back"> 
+                        We are looking for talented people, who are seeking great opportunity to shine, have passion towards open source technologies, and have remarkable achievements
+                        <div class="more_btn"><a href="mailto:info@rayasocialmedia.com?Subject=Work%20with%20us">Get in touch now</a></div>
+                      </div> 
+                    </div> 
+                  </div>
+        </div>
+        
+        <div class="col-md-4 column">
+                  <div class="flip_contribute"> 
+                    <div class="card"> 
+                      <div class="face front"> 
+                        <h3>Internships</h3>
+                      </div> 
+                      <div class="face back"> 
+                        We are looking for graduating seniors who are original thinkers, curious, and creative with a passion for innovation and social interaction to join our team this summer.
+                        <div class="more_btn"><a href="internship.html">learn more</a></div>
+                      </div> 
+                    </div> 
+                  </div>
+        </div>
+        
+        <div class="col-md-4 column">
+                  <div class="flip_contribute"> 
+                    <div class="card"> 
+                      <div class="face front"> 
+                        <h3>Giving Back </h3>
+                      </div> 
+                      <div class="face back"> 
+                        Creating best practice, and doing so in a way that finds the best wins for society.
+                      </div> 
+                    </div> 
+                  </div>
+        </div>
+  </div>
+
+</div>
+
+<!-- footer -->
+<div class="col-md-12 column" id="contact">
+  <div id="footer" class="clearfix">
+
+      <!-- left section -->
+      <div class="col-md-6 column">      
+        <div class="address">
+          <h4>Raya social media</h4>
+          26th July St., Touristic Zone, 6th of October, 12568 Egypt
+        </div>
+        <div class="contact_info">
+          <h4>+202 3827 6000</h4>
+          <a href="mailto:info@rayasocialmedia.com" target="_blank">info@rayasocialmedia.com</a>
+        </div>
+        <div class="follow_us">
+          <ul class="social_icons">
+            <li>follow us</li>
+            <li><a href="https://www.facebook.com/RayaSocialMedia" target="_blank"><img src="img/facebook_follow.png"></a></li>
+            <li><a href="https://twitter.com/RayaSocialMedia" target="_blank"><img src="img/twitter_follow.png"></a></li>
+            <li><a href="http://www.linkedin.com/company/2769373" target="_blank"><img src="img/linkedin_follow.png"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- right section -->
+      <div class="col-md-6 column">
+        <h4>It’s time to join the Digital Era!</h4><br>
+        <div class="learn_more"><a href="mailto:info@rayasocialmedia.com" target="_blank">Contact our sales now</a></div>
+      </div>
+
+  </div>
+</div>
+
+<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+
+<script>
+  $('.flip').mouseover(function(){
+    $(this).find('.card').addClass('flipped').mouseout(function(){
+      $(this).removeClass('flipped');
+    });
+    return false;
+  });
+
+  $('.flip_contribute').mouseover(function(){
+    $(this).find('.card').addClass('flipped').mouseout(function(){
+      $(this).removeClass('flipped');
+    });
+    return false;
+  });
+
+</script>
+
+</body>
 </html>
