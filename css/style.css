@@ -1,5 +1,10 @@
 body{
-	/* Safari 4-5, Chrome 1-9 */
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #51626f;
+
+    /* Safari 4-5, Chrome 1-9 */
   	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfe5e6), to(#fff));
   	/* Safari 5.1, Chrome 10+ */
   	background: -webkit-linear-gradient(top, #dfe5e6, #fff);
@@ -11,10 +16,6 @@ body{
     	background: -o-linear-gradient(top, #dfe5e6, #fff);
 
 	/*background-color: #dfe5e6;*/
-	font-size: 17px;
-  	font-style:  normal;
-  	font-family: 'Raleway', sans-serif;
-  	color: #51626f;
 }
 
 a{
@@ -57,6 +58,10 @@ ul, li{
 .col-md-12, .column, .row{
 	padding: 0;
 	margin:0;
+}
+
+a.navbar-brand img {
+    width: 87%;
 }
 
 .navbar{
@@ -235,6 +240,7 @@ p.txt_contents{
 
 .flip {
 	-webkit-perspective: 800;
+    perspective: 800;
 	width: 70%;
 	height: 110px;
 	position: relative;
@@ -250,6 +256,7 @@ p.txt_contents{
 
 .flip .card.flipped {
  	-webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
 }
 
 .flip .card {
@@ -257,6 +264,8 @@ p.txt_contents{
 	height: 100%;
 	-webkit-transform-style: preserve-3d;
 	-webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
 }
 
 .flip .card .face {
@@ -264,6 +273,8 @@ p.txt_contents{
 	height: 100%;
 	position: absolute;
 	-webkit-backface-visibility: hidden ;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
 	z-index: 2;
 }
 
@@ -275,6 +286,7 @@ p.txt_contents{
 
 .flip .card .back {
 	-webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
 	background: #b7b7b7;
 	cursor: pointer;
 	text-align: left;
@@ -302,6 +314,7 @@ p.txt_contents{
 
 .flip_contribute {
 	-webkit-perspective: 800;
+    perspective: 800;
 	width: 90%;
 	height: 145px;
 	position: relative;
@@ -317,6 +330,7 @@ p.txt_contents{
 
 .flip_contribute .card.flipped {
  	-webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
 }
 
 .flip_contribute .card {
@@ -324,6 +338,8 @@ p.txt_contents{
 	height: 100%;
 	-webkit-transform-style: preserve-3d;
 	-webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
 }
 
 .flip_contribute .card .face {
@@ -331,6 +347,8 @@ p.txt_contents{
 	height: 100%;
 	position: absolute;
 	-webkit-backface-visibility: hidden ;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
 	z-index: 2;
 }
 
@@ -342,6 +360,7 @@ p.txt_contents{
 
 .flip_contribute .card .back {
 	-webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
 	background: #b7b7b7;
 	cursor: pointer;
 	text-align: left;
@@ -365,7 +384,6 @@ p.txt_contents{
 	text-decoration: none;
 	color: #fff;
 }
-
 
 #products{
 	padding-bottom: 40px;
@@ -447,7 +465,7 @@ p.txt_contents{
   right: 16px;
   display: none;
 
-	background-color: #125687;
+    background-color: #106cb6;
 	width: 40px;
 	height: 40px;
 	text-align: center;
