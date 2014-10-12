@@ -1,843 +1,1616 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Raya Social Media</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-  <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-  <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-  <!--script src="js/less-1.3.3.min.js"></script-->
-  <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Raya Social Media, Mobile App development Egypt, UX consultation, web design Egypt, Digital marketing services Egypt, Market Research, Competitive Analysis, Strategic Planning, Social Media Management Egypt, Digital Advertising, Search Engine Optimization, Marketing and Digital Analysis">
+    <meta name="description" content="Raya Social Media offers a full scope of digital services to include technical state-of-the-art Web & Mobile App development, UX consultation, design and implementation; as well as full Digital marketing services including Market Research, Competitive Analysis, Strategic Planning, Creative conceptualization & ideation, Social Media Management, Digital Advertising, Search Engine Optimization & Marketing and Digital Analysis.">
+    <meta name="author" content="">
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/jquery.fancybox.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <title>Raya Social Media | One stop Multiple Solutions</title>
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<![endif]-->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-<script type="text/javascript">
-  //smooth scroll for home page
-      $(document).ready(function(e) {
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
 
-        $('.nav a').bind('click', function(e) {
-            e.preventDefault();
-            target = this.hash;
-            console.log(target);
-            $.scrollTo(target, 1000);
-        });
-    });
-</script>
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
-<div class="scrollup"><b>↑</b></div>
-  <div class="row clearfix" id="home">
-    <div class="col-md-12 column">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><img src="img/raya_social_media_logo.png"></a>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/raya_social_media_logo.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Why RSM</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">What we do</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Our Creations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">We Rock</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active">
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#products">Products</a>
-            </li>
-            <li>
-              <a href="#about">About us</a>
-            </li>
-            <li>
-              <a href="#clients">Our Clients</a>
-            </li>
-            <li>
-              <a href="#contact">Contact us</a>
-            </li>
-<!--
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-<ul class="dropdown-menu">
-<li>
-<a href="#">Action</a>
-</li>
-<li>
-<a href="#">Another action</a>
-</li>
-<li>
-<a href="#">Something else here</a>
-</li>
-<li class="divider">
-</li>
-<li>
-<a href="#">Separated link</a>
-</li>
-<li class="divider">
-</li>
-<li>
-<a href="#">One more separated link</a>
-</li>
-</ul>
-</li>
--->
-</ul>
-<!--
-<form class="navbar-form navbar-left" role="search">
-<div class="form-group">
-<input type="text" class="form-control">
-</div> <button type="submit" class="btn btn-default">Submit</button>
-</form>
--->
-<!--
-<ul class="nav navbar-nav navbar-right">
-<li>
-<a href="#">Link</a>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-<ul class="dropdown-menu">
-<li>
-<a href="#">Action</a>
-</li>
-<li>
-<a href="#">Another action</a>
-</li>
-<li>
-<a href="#">Something else here</a>
-</li>
-<li class="divider">
-</li>
-<li>
-<a href="#">Separated link</a>
-</li>
-</ul>
-</li>
-</ul>
--->
-</div>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"><!--One stop--><br></div>
+                <div class="intro-heading"><!--Multiple Solutions--><br></div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+				
+	            <div class="col-md-12">
+	                <ul class="list-inline social-buttons header-buttons">
+	                    <li><a href="https://twitter.com/RayaSocialMedia" target="_blank"><i class="fa fa-twitter"></i></a>
+	                    </li>
+	                    <li><a href="https://www.facebook.com/RayaSocialMedia" target="_blank"><i class="fa fa-facebook"></i></a>
+	                    </li>
+	                    <li><a href="https://www.linkedin.com/company/2769373" target="_blank"><i class="fa fa-linkedin"></i></a>
+	                    </li>
+	                    <li><a href="http://www.rayasocialmedia.wordpress.com" target="_blank"><i class="fa fa-wordpress"></i></a>
+	                    </li>
+	                </ul>
+	            </div>
+            </div>
+        </div>
+    </header>
 
-</nav>
-</div>
-</div>
-
-<!-- carousel -->
-<div class="row clearfix">
-  <div class="col-md-12 column">
-    <div class="carousel slide" id="carousel-52038">
-      <ol class="carousel-indicators">
-        <li class="active" data-slide-to="0" data-target="#carousel-52038">
-        </li>
-        <li data-slide-to="1" data-target="#carousel-52038">
-        </li>
-        <li data-slide-to="2" data-target="#carousel-52038">
-        </li>
-      </ol>
-      <div class="carousel-inner">
-        
-      <div class="item active">
-          <!--<img alt="" src="">-->
-          <div class="carousel-caption">
-              <h2>
-                Get Recognized on the
-              </h2>
-              <h1>
-                <span class="light_blue">Digital</span> Map Today
-              </h1>
-              <p>
-                <div class="learn_more">
-                  <a href="services.html">learn more</a>
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Services</h2>
+                    <h3 class="section-subheading text-muted">
+We offer a <em>ONE STOP SOLUTION</em> to what usually requires multiple agencies to handle,<br> a full scope of digital services to include technical state-of-the-art, as well as full Digital marketing solutions.
+                    </h3>
                 </div>
-              </p>
-          </div>
-      </div>
+            </div>
+		    <div class="content-section-b">
 
-      <div class="item">
-          <!--<img alt="" src="">-->
-          <div class="carousel-caption">
-              <h2>
-                Get Real Results
-              </h2>
-              <h1>
-                don’t just get a fact sheet
-              </h1>
-              <p>
-                <div class="learn_more">
-                  <a href="services.html">learn more</a>
+		        <div class="container">
+
+		            <div class="row">
+		                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+		                    <div class="clearfix"></div>
+		                    <h1 class="section-heading purple">Digital Marketing & Strategy</h1>
+		                    <p>
+								•   Ride the Social Media wave <br>
+								•   Reach your customers online<br>
+								•   Let your brand be found<br>
+								•   Understand & Set the market trend<br>
+								•   Track & beat your competition
+		                    </p>
+							
+							<h2>
+								<i class="fa fa-share-alt"></i>
+								SOCIAL MEDIA MANAGEMENT
+							</h2>
+							<em class="green">“COZ SOCIAL IS THE WAY TO DO IT!”</em><br>
+							<p>
+								•	Set the market trend<br>
+								•	Beat your competition<br>
+								•	Communicate creatively<br>
+								•	Plan, execute & analyze<br>
+								•	Engage your loyal Fans
+							</p>
+							<a href="#packageModal1" class="portfolio-link" data-toggle="modal">
+								<button type="button" class="btn btn-primary">
+									<i class="fa fa-rocket"></i>
+									Social Media Packs
+								</button>
+							</a>
+							
+							<br><br>
+							
+							<h2>
+								<i class="fa fa-picture-o"></i>
+								DIGITAL ADS MANAGEMENT
+							</h2>
+							<em class="green">“REACH YOUR CUSTOMERS WHEREVER THEY ARE”</em><br>
+							<p>
+								•	Find your customers<br>
+								•	Speak their language<br>
+								•	Understand their behavior<br>
+								•	Analyze their response<br>
+								•	Maximize your ROI
+
+							</p>
+							
+							<br>
+							
+							<h2>
+								<i class="fa fa-trophy"></i>
+								COMPETITIVE ANALYSIS
+							</h2>
+							<em class="green">“FIND, CHALLENGE & BEAT YOUR ONLINE COMPETORS!”</em><br>
+							<p>
+								•	Spotlight your competitors<br>
+								•	Track their performance<br>
+								•	Challenge their success<br>
+								•	Beat them!
+							</p>
+							
+		                </div>
+						
+		                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+		                    <img class="img-responsive services-img" src="img/digi.jpg" alt="Digital marketing solutions">
+							
+							<br>
+							
+							<h2>
+								<i class="fa fa-bolt"></i>
+								SEO (Search Engine Optimization)
+							</h2>
+							<em class="green">“IT’S TIME FOR YOUR BRAND TO BE FOUND”</em><br>
+							<p>
+								•	Storm the search engines<br>
+								•	Get found first!
+							</p>
+							
+							<br>
+							
+							<h2>
+								<i class="fa fa-users"></i>
+								MARKET RESEARCH
+							</h2>
+							<em class="green">“WE DON’T FOLLOW TRENDS, WE SET THEM!”</em><br>
+							<p>
+								•	Professional Market research<br>
+								•	Learn from Best practices<br>
+								•	Compete with Top players<br>
+								•	Challenge Trend Setters
+							</p>
+							
+		                </div>
+		            </div>
+
+		        </div>
+		        <!-- /.container -->
+
+		    </div>
+		    <!-- /.content-section-b -->            
+
+			
+			<hr class="section-heading-spacer">
+
+		    <div class="content-section-a">
+
+		        <div class="container">
+
+		            <div class="row">
+		                <div class="col-lg-5 col-sm-6">
+		                    <div class="clearfix"></div>
+		                    <h1 class="section-heading green">Technical Solutions</h1>
+							<em class="dark-grey">MAKE IT EASY FOR YOUR ONLINE CUSTOMERS!</em>
+		                    <p>
+								•	Visual web design that is a necessity, not a luxury<br>
+								•	Innovative features & functionality<br>
+								•	Usability based on data, not opinion<br>
+								•	Coordinated business, technical and user requirements<br>
+								•	Mobile apps that engage, interact & deliver
+		                    </p>
+							
+							<h2 class="blue">
+								<i class="fa fa-laptop"></i>
+								UX/UI CONSULTATION
+							</h2>
+							<em class="dark-grey">“SOLUTIONS THAT ENGAGE, INTERACT & DELIVER”</em><br>
+							<p>
+								•	Understand your customer needs<br>
+								•	Personas & usage scenarios<br>
+								•	Information Architecture + Wire Frames<br>
+								•	Smooth & easy navigation<br>
+								•	Innovative features & functionality<br>
+								•	Usability based on data, not opinion
+							</p>
+							
+							<br>
+							
+							<h2 class="blue">
+								<i class="fa fa-magic"></i>
+								UX/UI DESIGN
+							</h2>
+							<em class="dark-grey">“WEB DESIGN THAT SPEAKS THE LANGUAGE OF YOUR BRAND”</em><br>
+							<p>
+								•	Professional & Attractive design<br>
+								•	Icon & theme design<br>
+								•	Brand integration 
+							</p>
+							
+							<br>
+		                </div>
+						
+		                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+		                    <img class="img-responsive services-img" src="img/tech.jpg" alt="Mobile App development, UX consultation, web design">
+							
+							<br>
+							
+							<h2 class="blue">
+								<i class="fa fa-code"></i>
+								WEB DEVELOPMENT
+							</h2>
+							<em class="dark-grey">“WEBSITES THAT WORK!”</em><br>
+							
+							<br>
+							
+							<h2 class="blue">
+								<i class="fa fa-mobile"></i>
+								MOBILE APPS
+							</h2>
+							<em class="dark-grey">“INTERACTIVE ON-THE-GO SOLUTIONS!”</em><br>
+							<p>
+								•	Constant reach<br>
+								•	Instant engagement<br> 
+								•	Immediate updates
+							</p>
+							<br>
+							<a href="#packageModal2" class="portfolio-link" data-toggle="modal">
+								<button type="button" class="btn btn-warning">
+									<i class="fa fa-keyboard-o"></i>
+									Development Packs
+								</button>
+							</a>
+							<br><br>
+		                </div>
+		            </div>
+
+		        </div>
+		        <!-- /.container -->
+
+		    </div>
+		    <!-- /.content-section-a -->			
+			
+
+			
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">
+We partner with our clients to establish their presence in the digital sphere. We creatively ride the Social Media wave to reach customers online, and allow brands to be found, setting market trends and beating competition! Raya Social Media makes the online experience easy & enjoyable by designing & developing websites with innovative features & functionality, and mobile apps that engage, interact & deliver. 
+                    </h3>
                 </div>
-              </p>
-          </div>
-      </div>
-
-      <div class="item">
-          <!--<img alt="" src="">-->
-          <div class="carousel-caption">
-              <h2>
-                Stand out of the Crowd
-              </h2>
-              <h1>
-                with your <span class="light_blue">Digital</span> presence
-              </h1>
-              <p>
-                <div class="learn_more">
-                  <a href="services.html">learn more</a>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal4 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/nassya_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Nassya</h4>
+                        <p class="text-muted">Explore your neighborhood</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="http://www.nassya.com" target="_blank"><i class="fa fa-link"></i></a>
+		                    </li>
+		                    <li><a href="https://www.facebook.com/NassyaEgypt" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                    <li><a href="https://play.google.com/store/apps/details?id=com.rsm.nassya&hl=en" target="_blank"><i class="fa fa-android"></i></a>
+		                    </li>
+		                    <li><a href="https://itunes.apple.com/eg/app/nassya/id586062552?mt=8" target="_blank"><i class="fa fa-apple"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
                 </div>
-              </p>
-          </div>
-      </div>
-
-
-      </div> <a class="left carousel-control" href="#carousel-52038" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-52038" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-      
-      <!-- services -->
-      <div class="row clearfix rsm_section" id="services">
-            <h1>One Stop</h1>
-            <h2>Multiple Solutions</h2>
-            <p class="txt_contents">
-              We study how users behave, react, consume and interact with interfaces, brand messages, search, advertising and media interactions. <a href="services.html">read more</a>
-            </p>
-
-            <div class="col-md-4 column">
-              <div class="service_box"><img src="img/research_icon.png"></div>
-              <h2>Research<br>&Insight</h2>
-              <div class="learn_more">
-                <a href="services.html">learn more</a>
-              </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!-- #portfolioModal1 -->
+					<a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/hatwkhod_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>hatWkhod</h4>
+                        <p class="text-muted">Buy books online</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="http://www.hatwkhod.com" target="_blank"><i class="fa fa-link"></i></a>
+		                    </li>
+		                    <li><a href="https://www.facebook.com/HatWKhodonline" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal3 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/ovio_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Ovio</h4>
+                        <p class="text-muted">A taste of Europe</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="http://www.ovio.eu" target="_blank"><i class="fa fa-link"></i></a>
+		                    </li>
+		                    <li><a href="https://www.facebook.com/Ovio.eu" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal6 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/rh_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Raya Holding</h4>
+                        <p class="text-muted">Foundation for success</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="https://www.facebook.com/RayaHolding.Official" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal2 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/cachimba_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Cachimba</h4>
+                        <p class="text-muted">Spanish caffee</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="http://www.cachimba.com" target="_blank"><i class="fa fa-link"></i></a>
+		                    </li>
+		                    <li><a href="https://www.facebook.com/Cachimba.tapas" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal5 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/metro_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Metropolitan</h4>
+                        <p class="text-muted">Financial Consulting</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="https://www.facebook.com/MetropolitanConsulting" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal6 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/portorentals_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Porto Rentals</h4>
+                        <p class="text-muted">By Amer Group</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a style="background:none; cursor:default;" href="" target="_blank"></a></li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal6 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/rcc_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Raya Contact Center</h4>
+                        <p class="text-muted">The Number One Outsourcing Call Center</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="https://www.facebook.com/RayaContactCenterhr" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal6 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/portoholidays_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Porto Holidays</h4>
+                        <p class="text-muted">By Amer Group</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a style="background:none; cursor:default;" href="" target="_blank"></a></li>
+		                </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+					<!-- #portfolioModal6 -->
+                    <a href="" class="portfolio-link" data-toggle="modal">
+						<!--
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+						-->
+                        <img src="img/portfolio/rdc_thumb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Raya Data Center</h4>
+                        <p class="text-muted">Quality IT Services & Solutions</p>
+		                <ul class="list-inline social-buttons header-buttons">
+		                    <li><a href="https://www.facebook.com/RayaDataCenter.Official" target="_blank"><i class="fa fa-facebook"></i></a>
+		                    </li>
+		                </ul>
+                    </div>
+                </div>
+				
+             
             </div>
-            
-            <div class="col-md-4 column">
-              <div class="service_box"><img src="img/digital_icon.png"></div>
-              <h2>Digital<br>Strategy</h2>
-              <div class="learn_more">
-                <a href="services.html">learn more</a>
-              </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About RSM</h2>
+                    <h3 class="section-subheading text-muted">
+Emerging in the market with a strong presence as what is called a “Hybrid Agency” that offers a ONE STOP SOLUTION to what usually required multiple agencies to handle, Raya Social Media offers a full scope of digital services to include technical state-of-the-art Web & Mobile App development, UX consultation, design and implementation; as well as full Digital marketing services including Market Research, Competitive Analysis, Strategic Planning, Creative conceptualization & ideation, Social Media Management, Digital Advertising, Search Engine Optimization & Marketing and Digital Analysis. We take pride at being a team of dynamic, innovative and talented individuals eager to make a difference. We leverage on our experience with a diversified portfolio of clients to deliver effective solutions to businesses looking find an edge in the digital sphere.
+                    </h3>
+                </div>
             </div>
-            
-            <div class="col-md-4 column">
-              <div class="service_box"><img src="img/solutions_icon.png"></div>
-              <h2>Technical<br>Solutions</h2>
-              <div class="learn_more">
-                <a href="services.html">learn more</a>
-              </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>We Are Hiring</h4>
+                                    <h4 class="subheading">Get in touch now</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                        We are looking for talented people, who are seeking great opportunity to shine, have passion towards open source technologies, and have remarkable achievements.
+						<br><a href="mailto:info@rayasocialmedia.com" target="_blank">info@rayasocialmedia.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Internship Program</h4>
+                                    <h4 class="subheading">We are looking for graduating seniors</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+										Raya Social Media is offering an Internship Program. We are looking for graduating seniors who are original thinkers, curious, and creative with a passion for innovation and social interaction to join our team this summer.Our Internship Program provides a hands-on working/learning experience designed for college students interested in the field of social media, marketing and IT. Interns are required to work well in a fast‐paced work environment that will challenge their problem solving skills and be able to work independently, or in a team.
+										<br><br>
+
+										<em>Qualifications</em>
+										The ideal intern will possess strong communication skills, strong commitment to learning, and excellent computer skills, The Ideal Intern should be responsible, reliable and attentive to detail, should also be highly motivated, prompt, and organized
+
+										<br><br>
+
+										<em>Benefits</em>
+										Our Intern will gain valuable work experience, have an edge in the job market, decide if this is the right career path, have networking opportunities, apply classroom knowledge and gain confidence.
+                                    	
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--
+						<li class="timeline">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Giving Back</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                    	Creating best practice, and doing so in a way that finds the best wins for society.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+						-->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-      </div>
-
-  <!-- products -->
-  <div class="row clearfix rsm_section" id="products">
-
-    <h1>we are proud of</h1>
-    <p class="txt_contents">
-      We spread over dynamic innovation to find new interaction paradigms significantly enhancing and merging practices between the online and offline world to deliver positive impact on our daily life.
-    </p>
-    <div class="col-md-4 column">
-      <div class="flip"> 
-        <div class="card"> 
-          <div class="face front"> 
-            <a href="products.html#hatwkhod"><img src="img/hatwkhod_logo.png"></a>
-          </div> 
-          <div class="face back"> 
-            Hatw5od.com is the first online library in Egypt that provides a unique book rental system...
-            <div class="more_btn"><a href="products.html#hatwkhod">learn more</a></div>
-          </div> 
-        </div> 
-      </div>
-    </div>
-    <div class="col-md-4 column">
-      <div class="flip"> 
-        <div class="card"> 
-          <div class="face front"> 
-            <a href="products.html#nassya"><img src="img/nassya_logo.png"></a>
-          </div> 
-          <div class="face back"> 
-            The Neighborhood Social Network.
-            <div class="more_btn"><a href="products.html#nassya">learn more</a></div>
-          </div> 
-        </div> 
-      </div>
-    </div>
-    <div class="col-md-4 column">
-      <div class="flip"> 
-        <div class="card"> 
-          <div class="face front"> 
-            <a href="products.html#tawasol"><img src="img/tawasol_logo.png"></a>
-          </div> 
-          <div class="face back"> 
-            Empower the People...Trust the Government
-            <div class="more_btn"><a href="products.html#tawasol">learn more</a></div>
-          </div> 
-        </div> 
-      </div>
-    </div>
-  </div>
-
-  <!-- portfolio -->
-  <div class="row clearfix rsm_section" id="clients">
-        <h1>Our Happy Clients</h1>
-        <p class="txt_contents">
-          It is not about where you are NOW .. it is about where you will be
-        </p>
-        
-        <div class="col-md-3 column">
-              <a class="fancybox" href="img/rcc.jpg" data-fancybox-group="gallery" title="RCC انجح معنا campaign"><img src="img/rcc.jpg" alt="" /></a>
         </div>
-        
-        <div class="col-md-3 column">
-              <a class="fancybox" href="img/ovio.jpg" data-fancybox-group="gallery" title="Ovio restaurant facebook campaign"><img src="img/ovio.jpg" alt="" /></a>
-        </div>
-        
-        <div class="col-md-3 column">
-              <a class="fancybox" href="img/cachimba.jpg" data-fancybox-group="gallery" title="Cachimba restaurant and cafe social media campaign"><img src="img/cachimba.jpg" alt="" /></a>
-        </div>
-        
-        <div class="col-md-3 column">
-              <a class="fancybox" href="img/rayaholding.jpg" data-fancybox-group="gallery" title="Raya holding online digital campaign"><img src="img/rayaholding.jpg" alt="" /></a>
-        </div>
-  </div>
+    </section>
 
-
-  <!-- the team -->
-  <div class="row clearfix rsm_section" id="about">
-
-    <h1>The team</h1>
-    <p class="txt_contents">
-      Raya Social Media, One of the newest subsidiaries of Raya Holding focused on enabling social interaction using online and mobile technologies.
-      Each and every one of our team represents the spirit of our company...We are driven, committed, and talented. 
-    </p>
-
-    <!-- row -->
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/mohamed_wahby.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Mohamed Wahby</div>
-            <div class="team_position">CEO</div>
-            <div class="team_about">
-              
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">RSM & Proud!</h2>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/mwahby7" target="_blank"><img src="img/twitter_ico.png"></a>
-        </div>
-      </div><!-- end of team box -->
-    </div>
-
-
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/sabry.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Sabry Eissa</div>
-            <div class="team_position">Financial Manager</div>
-            <div class="team_about">
-
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+						<br><br>
+                        <p class="text-muted">
+                            <a href="#RSMrocksModal" class="portfolio-link" data-toggle="modal">
+								<button type="button" class="btn btn-default">
+									<i class="fa fa-beer"></i> RSM ROCKS
+								</button>
+							</a>
+						</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+						<br><br>
+                        <p class="text-muted">
+                            <a href="http://www.rayasocialmedia.wordpress.com" target="_blank" class="portfolio-link" data-toggle="modal">
+								<button type="button" class="btn btn-default">
+									<i class="fa fa-quote-right"></i> TIPS FROM THE TEAM
+								</button>
+							</a>
+						</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+						<br><br>
+                        <p class="text-muted">
+                            <a href="#RSMcertificatesModal" class="portfolio-link" data-toggle="modal">
+								<button type="button" class="btn btn-default">
+									<i class="fa fa-certificate"></i> TRUST US
+								</button>
+							</a>
+						</p>
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-        </div>
-      </div><!-- end of team box -->
-    </div>
-
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/mireille.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Mireille Barsoum</div>
-            <div class="team_position">Marketing Manager</div>
-            <div class="team_about">
-              
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">
+                    	<!-- some text here if needed -->
+                    </p>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/MireilleBarsoum" target="_blank"><img src="img/twitter_ico.png"></a>
         </div>
-      </div><!-- end of team box -->
-    </div>
-<!-- end of row -->
+    </section>
 
-
-    <!-- row -->
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/eslam.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Eslam Foad Hindawi</div>
-            <div class="team_position">Team Leader</div>
-            <div class="team_about">
-              
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading white-txt">
+						RAYA SOCIAL MEDIA -
+						26th July St., Touristic Zone, 6th of October, 12568 Egypt.
+  			           <br>Send us an email to <a href="mailto:sales@rayasocialmedia.com" target="_blank">sales@rayasocialmedia.com</a>
+                    </h3>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/Eslam_Foad" target="_blank"><img src="img/twitter_ico.png"></a>
+            <!--<div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>-->
         </div>
-      </div><!-- end of team box -->
-    </div>
+    </section>
 
-
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/ramy.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Ramy Khater</div>
-            <div class="team_position">Team Leader</div>
-            <div class="team_about">
-
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Raya Social Media 2014</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/RayaSocialMedia" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/RayaSocialMedia" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company/2769373" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+	                    <li><a href="http://www.rayasocialmedia.wordpress.com" target="_blank"><i class="fa fa-wordpress"></i></a>
+	                    </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+					<!--
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+					-->
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-            <a href="https://twitter.com/rominkhater" target="_blank"><img src="img/twitter_ico.png"></a>
         </div>
-      </div><!-- end of team box -->
-    </div>
+    </footer>
 
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/dina.jpg">
-          </li>
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-          <li>
-            <div class="team_name">Dina Alashram</div>
-            <div class="team_position">Process & Quality Manager</div>
-            <div class="team_about">
-              
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/DinaElAshram" target="_blank"><img src="img/twitter_ico.png"></a>
-        </div>
-      </div><!-- end of team box -->
-    </div>
-<!-- end of row -->
-
-
-
-    <!-- row -->
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/kareem_diefallah.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Kareem Diefallah</div>
-            <div class="team_position">Content Team Leader</div>
-            <div class="team_about">
-              
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/Diefallah" target="_blank"><img src="img/twitter_ico.png"></a>
         </div>
-      </div><!-- end of team box -->
     </div>
 
 
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/amira.jpg">
-          </li>
 
-          <li>
-            <div class="team_name">Amira Enany</div>
-            <div class="team_position">Copywriter</div>
-            <div class="team_about">
 
+
+    <!-- RSM ROCKS Modal -->
+    <div class="portfolio-modal modal fade" id="RSMrocksModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-            <a href="https://twitter.com/AEnany" target="_blank"><img src="img/twitter_ico.png"></a>
-        </div>
-      </div><!-- end of team box -->
-    </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+							
+							<div class="jumbotron">
+							  <div class="container">
+							    <img class="img-responsive" src="img/IMG-20140917-WA0001.jpg" alt="">
+							  </div>
+							</div>
+							
+							
+							<i class="fa fa-hand-o-right fa-4x dark-grey"></i>
+                            <h3 class="dark-grey">Management Team</h3>
+                            <!--<img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">-->
+							
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Wahby</h3>
+							        <p>CEO</p>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Sabry</h3>
+							        <p>Financial Manager</p>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Israa</h3>
+							        <p>HR Manager</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<br><br>
+							
+							<i class="fa fa-bomb fa-4x purple"></i>
+                            <h2 class="purple">Digital Strategy Team</h2>
+							
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Mireille</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Ahmed</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Islam</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+                           
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Loay</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Hana</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Amira</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Karim</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Jailan</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Hisham</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3></h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Serougy</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3></h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						   <br><br>
+						   
+						   <i class="fa fa-github fa-4x green"></i>
+                           <h2 class="green">Technical Team</h2>
+						
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Eslam</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Ramy</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>AbuShady</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Mahfouz</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Hany</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Karim</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Saraya</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Farouk</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Omar</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<br><br>
+						   
+						   <i class="fa fa-trophy fa-4x dark-grey"></i>
+                           <h3 class="dark-grey">Quality & Process Team</h3>
+						
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Dina</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Sahar</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Reem</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							
+							<div class="row">
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Saly</h3>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="col-sm-6 col-md-4">
+							    <div class="thumbnail">
+							      <div class="caption">
+							        <h3>Hossam</h3>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<br><br>
 
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/hana.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Hana El Meligy</div>
-            <div class="team_position">Creative Designer</div>
-            <div class="team_about">
-              
+						   
+                            <a href="https://www.facebook.com/RayaSocialMedia" target="_blank">
+								<button type="button" class="btn btn-primary">
+									<i class="fa fa-thumbs-o-up"></i>
+									Like us on Facebook
+								</button>
+							</a>
+							
+                        </div>
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/HanaEMeligy" target="_blank"><img src="img/twitter_ico.png"></a>
         </div>
-      </div><!-- end of team box -->
     </div>
-<!-- end of row -->
+	
+	
 
-
-    <!-- row -->
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/jailan.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Jailan Yousri</div>
-            <div class="team_position">Social Media Account Manager</div>
-            <div class="team_about">
-              
+    <!-- RSM certificates Modal -->
+    <div class="portfolio-modal modal fade" id="RSMcertificatesModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/jaila_yousri" target="_blank"><img src="img/twitter_ico.png"></a>
-        </div>
-      </div><!-- end of team box -->
-    </div>
-
-
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/loay_youssef.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Loay Youssef</div>
-            <div class="team_position">Creative Designer</div>
-            <div class="team_about">
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+						   <div class="jumbotron">
+						         <h1>We are certified</h1>
+								 <ul class="certificate-icons">
+								 	<li>
+										<img src="img/certificates/911.jpg" class="img-responsive img-circle" alt="">
+									</li>
+								 	<li>
+										<img src="img/certificates/1394757509.jpg" class="img-responsive img-circle" alt="">
+									</li>
+								 	<li>
+										<img src="img/certificates/cmmi_logo-2.jpg" class="img-responsive img-circle" alt="">
+									</li>
+								 	<li>
+										<img src="img/certificates/logo_msm.gif" class="img-responsive img-circle" alt="">
+									</li>
+								 	<li>
+										<img src="img/certificates/new-microsoft-logo.png" class="img-responsive img-circle" alt="">
+									</li>
+								 	<li>
+										<img src="img/certificates/oracle-png.png" class="img-responsive img-circle" alt="">
+									</li>
+								 	<li>
+										<img src="img/certificates/RITI_Logo.jpg" class="img-responsive img-circle" alt="">
+									</li>
+								 </ul>
+						   </div><!-- end of jumbotron -->
+						   
+						   <div class="jumbotron">
+						     <div class="container certificates">
+							   <em>Digital Strategy Team certifications:</em><br>
+							   -<b>MBA</b>, <i>Marketing Focus</i>- Maastricht School of Management, The Netherlands<br>
+							   -<b>Masters of Strategic Marketing</b>, <i>Digital Marketing & Social Media Focus</i>- London School of Business and Finance, UK<br>
+							   -<b>Digital Marketing Certificate</b>- IE Business School, Spain<br>
+							   -<b>The Art of Marketing Professional Diploma</b>- RITI, Egypt<br>
+						     </div>
+						   </div><!-- end of jumbotron -->
+						   
+						   <div class="jumbotron">
+						     <div class="container certificates">
+							   <em class="green">Technical Team certifications:</em><br>
+							   -<b>Microsoft Certified Professional Developer</b>, Windows/Web Developer<br>
+							   -<b>Microsoft Certified Technology Specialist</b>, Windows/Web Applications<br>
+							   -<b>Oracle Certified Java Programmer v 6.0</b><br>
+							   -<b>CMMI v 1.2 DEV Certified Appraisal Team Member​​</b><br>
+						     </div>
+						   </div><!-- end of jumbotron -->
+							
+                        </div>
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-            <a href="https://twitter.com/loayyoussef" target="_blank"><img src="img/twitter_ico.png"></a>
         </div>
-      </div><!-- end of team box -->
     </div>
+	
+	
 
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/abu_shady.jpg">
-          </li>
 
-          <li>
-            <div class="team_name">Mohamed Abu Shady</div>
-            <div class="team_position">Developer</div>
-            <div class="team_about">
-              
+    <!-- Package Modal 1 / Digital-->
+    <div class="portfolio-modal modal fade" id="packageModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-
+			<h1>SOCIAL MEDIA MANAGEMENT PACKAGES</h1>
+			<br>
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th class="active">
+									<h4>
+										<i class="fa fa-bars"></i>
+										SERVICE
+									</h4>
+								</th>
+								<th class="active">
+									<h4>
+										<i class="fa fa-star"></i>
+										FULL PACK
+									</h4>
+								</th>
+								<th class="highlighted">
+									<h4 class="white">
+										<i class="fa fa-rocket"></i>
+										INTERMEDIATE PACK
+									</h4>
+								</th>
+								<th class="active">
+									<h4>
+										<i class="fa fa-lightbulb-o"></i>
+										BASIC PACK
+									</h4>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>&nbsp;</td>
+								<td><em>“I SET TRENDS”</em></td>
+								<td class="active"><em>“WATCH ME”</em></td>
+								<td><em>“I AM HERE”</em></td>
+							</tr>
+							<tr>
+								<td>Market Research + Trend Analysis</td>
+								<td>Initial + Quarterly</td>
+								<td class="active">Initial + twice yearly</td>
+								<td>Initial</td>
+							</tr>
+							<tr>
+								<td>Competitive Analysis</td>
+								<td><i class="dark-grey">Monthly</i></td>
+								<td class="active"><i class="dark-grey">Quarterly</i></td>
+								<td><i class="dark-grey">U/A</i></td>
+							</tr>
+							<tr>
+								<td>Social Media Channels</td>
+								<td>Up to 4</td>
+								<td class="active">Up to 3</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Target Audience insight</td>
+								<td>Research by RSM</td>
+								<td class="active">Research by RSM</td>
+								<td>Provided by Client</td>
+							</tr>
+							<tr>
+								<td>Campaign Frequency</td>
+								<td>Monthly</td>
+								<td class="active">2 months</td>
+								<td>Quarterly</td>
+							</tr>
+							<tr>
+								<td>Social Media Strategy</td>
+								<td>Up to 3 objectives</td>
+								<td class="active">2 Objectives</td>
+								<td>1 objective</td>
+							</tr>
+							<tr>
+								<td>Main MARCOM message</td>
+								<td>Developed by RSM</td>
+								<td class="active">Developed by RSM</td>
+								<td>Provided by client</td>
+							</tr>
+							<tr>
+								<td>Campaign messages Copy-write</td>
+								<td>Developed by RSM</td>
+								<td class="active">Developed by RSM</td>
+								<td>Developed by RSM</td>
+							</tr>
+							<tr>
+								<td>Language / Tone</td>
+								<td>Bilingual</td>
+								<td class="active">Bilingual</td>
+								<td>Monolingual</td>
+							</tr>
+							<tr>
+								<td>Design direction</td>
+								<td>2 options</td>
+								<td class="active">1 option</td>
+								<td>1 option</td>
+							</tr>
+							<tr>
+								<td>Design Amendments</td>
+								<td>Twice</td>
+								<td class="active">Twice</td>
+								<td>Once</td>
+							</tr>
+							<tr>
+								<td>Days of full resource allocation</td>
+								<td>2 days</td>
+								<td class="active">1.5 days</td>
+								<td>1.5 days</td>
+							</tr>
+						</tbody>
+					</table><!-- end of basic features -->
+					
+					
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>
+									<h4 class="orange">
+										<i class="fa fa-angle-right"></i>
+										POSTING FREQUENCY
+									</h4>
+								</th>
+								<th></th>
+								<th></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<i class="fa fa-facebook"></i>
+									&nbsp; | Facebook
+								</td>
+								<td>3 posts/day</td>
+								<td class="active">2 posts/day</td>
+								<td>1 post/day</td>
+							</tr>
+							<tr>
+								<td>
+									<i class="fa fa-twitter"></i>
+									&nbsp;| Twitter
+								</td>
+								<td>3 tweets/day</td>
+								<td class="active">2 tweets/day</td>
+								<td>U/A</td>
+							</tr>
+							<tr>
+								<td>
+									<i class="fa fa-linkedin"></i>
+									&nbsp;| LinkedIn
+								</td>
+								<td>1 post/ day + 2 Actions</td>
+								<td class="active">1 post/day</td>
+								<td>U/A</td>
+							</tr>
+							<tr>
+								<td>
+									<i class="fa fa-instagram"></i>
+									&nbsp;| Instagram
+								</td>
+								<td>1 post/ day</td>
+								<td class="active">U/A</td>
+								<td>U/A</td>
+							</tr>
+							<tr>
+								<td>
+									<i class="fa fa-pinterest"></i>
+									&nbsp;| Pinterest
+								</td>
+								<td>1 pin/day</td>
+								<td class="active">U/A</td>
+								<td>U/A</td>
+							</tr>
+							<tr>
+								<td>
+									<i class="fa fa-youtube"></i>
+									&nbsp;| Youtube
+								</td>
+								<td>As per strategy</td>
+								<td class="active">U/A</td>
+								<td>U/A</td>
+							</tr>
+							<tr>
+								<td class="success dark-grey">SLA (Social Media Management)</td>
+								<td class="success dark-grey">24 hrs response time</td>
+								<td class="success dark-grey">24 hrs response time</td>
+								<td class="success dark-grey">24 hrs response time</td>
+							</tr>
+							<tr>
+								<td class="active dark-grey">Advertising Strategy</td>
+								<td class="active dark-grey">As requested</td>
+								<td class="active dark-grey">As requested</td>
+								<td class="active dark-grey">As requested</td>
+							</tr>
+							<tr>
+								<td class="success dark-grey">Reporting Frequency</td>
+								<td class="success dark-grey">Weekly + Monthly + Quarterly report</td>
+								<td class="success dark-grey">Monthly + Quarterly</td>
+								<td class="success dark-grey">Monthly + Quarterly</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					
+					<table class="table table-bordered">
+						<thead>
+							<tr class="kpi-table">
+								<th class="active">
+									<h4 class="orange">
+										<i class="fa fa-angle-right"></i>
+										KEY METRICS (KPI'S)
+									</h4>
+								</th>
+								<th class="active"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Facebook</td>
+								<td>Page Fans, Storytellers, Reach, Engagement rate, Sentiment, Audience analysis</td>
+							</tr>
+							<tr>
+								<td>Twitter</td>
+								<td>Followers, Mentions, Re-tweets, Hashtag usage, Favorited tweets</td>
+							</tr>
+							<tr>
+								<td>Linked In</td>
+								<td>Page follows, Engagement</td>
+							</tr>
+							<tr>
+								<td>Instagram</td>
+								<td>Followers, Engagement</td>
+							</tr>
+							<tr>
+								<td>Pintrest</td>
+								<td>Followers, Repins</td>
+							</tr>
+							<tr>
+								<td>You-tube</td>
+								<td>Subscribers, Views, Engagement</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					
+									
+				</div><!-- end of table -->
+			
         </div>
-      </div><!-- end of team box -->
     </div>
-<!-- end of row -->
 
 
-    <!-- row -->
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/israa.jpg">
-          </li>
 
-          <li>
-            <div class="team_name">Israa Osama</div>
-            <div class="team_position">HR Manager</div>
-            <div class="team_about">
-              
+
+    <!-- Package Modal 2 / Technical-->
+    <div class="portfolio-modal modal fade" id="packageModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
             </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-          <a href="https://twitter.com/Israa_Osama" target="_blank"><img src="img/twitter_ico.png"></a>
+			
+			<h1>Technical Solutions Packs</h1>
+			<br>
+				<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th class="active">
+									<h4>
+										<i class="fa fa-bars"></i>
+										SERVICE
+									</h4>
+								</th>
+								<th class="active">
+									<h4>
+										<i class="fa fa-star"></i>
+										SUPER PACK
+									</h4>
+								</th>
+								<th class="highlighted">
+									<h4 class="white">
+										<i class="fa fa-rocket"></i>
+										INTERMEDIATE PACK
+									</h4>
+								</th>
+								<th class="active">
+									<h4>
+										<i class="fa fa-lightbulb-o"></i>
+										BASIC PACK
+									</h4>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>UX/UI Interface Design</td>
+								<td><i class="fa fa-check-square-o orange"></i></td>
+								<td class="active"><i class="fa fa-check-square-o orange"></i></td>
+								<td><i class="fa fa-check-square-o orange"></i></td>
+							</tr>
+							<tr>
+								<td>Website Type</td>
+								<td><i class="dark-grey">Static</i></td>
+								<td class="active"><i class="dark-grey">Dynamic</i></td>
+								<td><i class="dark-grey">Dynamic</i></td>
+							</tr>
+							<tr>
+								<td>No. Of website pages</td>
+								<td>5-10 pages</td>
+								<td class="active">Up to 20 main pages + Unlimited subpages</td>
+								<td>Unlimited main pages and subs</td>
+							</tr>
+							<tr>
+								<td>CMS management</td>
+								<td>RSM</td>
+								<td class="active">Admin Panel</td>
+								<td>Admin Panel</td>
+							</tr>
+							<tr>
+								<td>Analytics</td>
+								<td><i class="fa fa-times orange"></i></td>
+								<td class="active"><i class="fa fa-times orange"></i></td>
+								<td><i class="fa fa-check-square-o orange"></i></td>
+							</tr>
+							<tr>
+								<td>Social Media Integration</td>
+								<td><i class="fa fa-check-square-o orange"></i></td>
+								<td class="active"><i class="fa fa-check-square-o orange"></i></td>
+								<td><i class="fa fa-check-square-o orange"></i></td>
+							</tr>
+							<tr>
+								<td>Cross browser compatibility (MIN ie8, Chrome, Firefox, Safari)</td>
+								<td><i class="fa fa-check-square-o orange"></i></td>
+								<td class="active"><i class="fa fa-check-square-o orange"></i></td>
+								<td><i class="fa fa-check-square-o orange"></i> + ie7</td>
+							</tr>
+							<tr>
+								<td>Responsive design</td>
+								<td><i class="fa fa-times orange"></i></td>
+								<td class="active"><i class="fa fa-check-square-o orange"></i> Screen Size</td>
+								<td><i class="fa fa-check-square-o orange"></i> Mobile + Tab</td>
+							</tr>
+							<tr>
+								<td>Training for use</td>
+								<td><i class="fa fa-times orange"></i></td>
+								<td class="active"><i class="fa fa-check-square-o orange"></i></td>
+								<td><i class="fa fa-check-square-o orange"></i></td>
+							</tr>
+							<tr>
+								<td>Monthly Support</td>
+								<td>
+									<i class="fa fa-check-square-o orange"></i>
+								(MAX: 6 hrs/month)
+								</td>
+								<td class="active">
+									<i class="fa fa-check-square-o orange"></i>
+								(MAX: 12 hrs/month)
+								</td>
+								<td>
+									<i class="fa fa-check-square-o orange"></i>
+								(MAX: 15 hrs/month)
+								</td>
+							</tr>
+						</tbody>
+					</table><!-- end of basic features -->
+					
+					<table class="table table-bordered">
+						<thead>
+							<tr class="kpi-table">
+								<th class="success">
+									<h4 class="orange">
+										<i class="fa fa-angle-right"></i>
+										EXTRAS
+										<br><br>
+									</h4>
+								</th>
+								<th class="active">
+									1-	One time Setup: Domain + Website Hosting (cost + 15% Handling fees)
+									<br>
+									2-	Extra Maintenance (Developers Hourly rate)
+									<br>
+									3-	Mobile App (Cost based on Story point calculation: 80$)
+								</th>
+							</tr>
+						</thead>
+					</table>
+					
+			</div>
+			
+			
         </div>
-      </div><!-- end of team box -->
     </div>
 
 
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/serougy.jpg">
-          </li>
 
-          <li>
-            <div class="team_name">Mohamed EL Serougy</div>
-            <div class="team_position">Senior Sales Account Manager</div>
-            <div class="team_about">
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
 
-            </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-            <a href="https://twitter.com/serougy" target="_blank"><img src="img/twitter_ico.png"></a>
-        </div>
-      </div><!-- end of team box -->
-    </div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/farouk.jpg">
-          </li>
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
 
-          <li>
-            <div class="team_name">Farouk Hosni</div>
-            <div class="team_position">UI/UX Designer</div>
-            <div class="team_about">
-              
-            </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-            <a href="https://twitter.com/FaroukHossni" target="_blank"><img src="img/twitter_ico.png"></a>
-        </div>
-      </div><!-- end of team box -->
-    </div>
-<!-- end of row -->
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
-    <!-- row -->
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/yaaqoub.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Mohamed Yaaqoub</div>
-            <div class="team_position">Developer</div>
-            <div class="team_about">
-              
-            </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-        </div>
-      </div><!-- end of team box -->
-    </div>
-
-
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/karim.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Karim Ali</div>
-            <div class="team_position">UI/UX Designer</div>
-            <div class="team_about">
-
-            </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-
-        </div>
-      </div><!-- end of team box -->
-    </div>
-
-    <div class="col-md-4 column">
-      <div class="team_box clearfix">
-        <ul>
-          <li class="team_img">
-            <img src="img/sherif.jpg">
-          </li>
-
-          <li>
-            <div class="team_name">Ahmed Sherif</div>
-            <div class="team_position">Developer</div>
-            <div class="team_about">
-
-            </div>
-          </li>
-        </ul>
-        <div class="social_btn">
-
-        </div>
-      </div><!-- end of team box -->
-    </div>
-
-<!-- end of row -->
-
-
-
-  </div><!-- end of team section -->
-
-  <!-- contribute section -->
-  <div class="row clearfix rsm_section">
-        <div class="col-md-4 column">
-                  <div class="flip_contribute"> 
-                    <div class="card"> 
-                      <div class="face front"> 
-                        <h3>We are Hiring</h3>
-                      </div> 
-                      <div class="face back"> 
-                        We are looking for talented people, who are seeking great opportunity to shine, have passion towards open source technologies, and have remarkable achievements
-                        <div class="more_btn"><a href="mailto:info@rayasocialmedia.com?Subject=Work%20with%20us">Get in touch now</a></div>
-                      </div> 
-                    </div> 
-                  </div>
-        </div>
-        
-        <div class="col-md-4 column">
-                  <div class="flip_contribute"> 
-                    <div class="card"> 
-                      <div class="face front"> 
-                        <h3>Internships</h3>
-                      </div> 
-                      <div class="face back"> 
-                        We are looking for graduating seniors who are original thinkers, curious, and creative with a passion for innovation and social interaction to join our team this summer.
-                        <div class="more_btn"><a href="internship.html">learn more</a></div>
-                      </div> 
-                    </div> 
-                  </div>
-        </div>
-        
-        <div class="col-md-4 column">
-                  <div class="flip_contribute"> 
-                    <div class="card"> 
-                      <div class="face front"> 
-                        <h3>Giving Back </h3>
-                      </div> 
-                      <div class="face back"> 
-                        Creating best practice, and doing so in a way that finds the best wins for society.
-                      </div> 
-                    </div> 
-                  </div>
-        </div>
-  </div>
-
-</div>
-
-<!-- footer -->
-<div class="col-md-12 column" id="contact">
-  <div id="footer" class="clearfix">
-
-      <!-- left section -->
-      <div class="col-md-6 column">      
-        <div class="address">
-          <h4>Raya social media</h4>
-          26th July St., Touristic Zone, 6th of October, 12568 Egypt
-        </div>
-        <div class="contact_info">
-          <h4>+202 3827 6000</h4>
-          <a href="mailto:info@rayasocialmedia.com" target="_blank">info@rayasocialmedia.com</a>
-        </div>
-        <div class="follow_us">
-          <ul class="social_icons">
-            <li>follow us</li>
-            <li><a href="https://www.facebook.com/RayaSocialMedia" target="_blank"><img src="img/facebook_follow.png"></a></li>
-            <li><a href="https://twitter.com/RayaSocialMedia" target="_blank"><img src="img/twitter_follow.png"></a></li>
-            <li><a href="http://www.linkedin.com/company/2769373" target="_blank"><img src="img/linkedin_follow.png"></a></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- right section -->
-      <div class="col-md-6 column">
-        <h4>It’s time to join the Digital Era!</h4><br>
-        <div class="learn_more"><a href="mailto:info@rayasocialmedia.com" target="_blank">Contact our sales now</a></div>
-      </div>
-
-  </div>
-</div>
-
-<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-
-<script>
-  $('.flip').mouseover(function(){
-    $(this).find('.card').addClass('flipped').mouseout(function(){
-      $(this).removeClass('flipped');
-    });
-    return false;
-  });
-
-  $('.flip_contribute').mouseover(function(){
-    $(this).find('.card').addClass('flipped').mouseout(function(){
-      $(this).removeClass('flipped');
-    });
-    return false;
-  });
-
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52387018-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 
 </html>
