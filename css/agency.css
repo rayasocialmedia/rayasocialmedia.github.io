@@ -93,13 +93,13 @@ ul.header-buttons{
 em{
 	font-weight:700;
 	font-size:21px;
-	color:#8a59a3;
+	color:#0d6cb4;
 	font-style:normal;
 	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .services-img{
-	box-shadow: 2px 2px 5px #888888;
+	/*box-shadow: 2px 2px 5px #888888;*/
 	margin-top: 60px;
 }
 
@@ -176,7 +176,8 @@ hr.section-heading-spacer{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #106cb6;
+    background-color: #8a59a3;
+	border-color:#8a59a3;
 }
 
 .btn-primary:hover,
@@ -185,7 +186,8 @@ hr.section-heading-spacer{
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #106cb6;
+    background-color: #8a59a3;
+	border-color:#8a59a3;
 }
 
 .btn-primary:active,
@@ -209,12 +211,31 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #106cb6;
+    background-color: #8a59a3;
 }
 
 .btn-primary .badge {
     color: #106cb6;
     background-color: #fff;
+}
+
+.btn-warning {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+	color: #fff;
+	background-color: #54bb75;
+	border-color: #54bb75;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #54bb75;
+	border-color:#54bb75;
 }
 
 .btn-xl {
@@ -352,8 +373,17 @@ ul.certificate-icons li{
 	text-align:left;
 }
 
+.intro-lead-in img{
+	max-width:520px;
+	max-height:192px;
+}
 
 
+@media(max-width:768px){
+	.intro-lead-in img{
+		width:70%;
+	}
+}
 
 @media(min-width:768px) {
     .navbar-default {
@@ -397,6 +427,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	background-attachment:fixed;
 }
 
 header .intro-text {
@@ -453,7 +484,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-	color:#8a59a3;
+	color:#0d6cb4;
 }
 
 section h3.section-subheading {
@@ -553,6 +584,10 @@ section h3.section-subheading {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+	
+	.intro-lead-in img{
+		width:60%;
+	}
 }
 
 .timeline {
