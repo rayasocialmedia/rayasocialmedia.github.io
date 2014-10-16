@@ -1,0 +1,89 @@
+.display-inline-block{
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 12px;
+}
+.display-block{
+    display: block;
+}
+.display-table{
+    display: table;
+}
+.display-table-row{
+    display: table-row;
+}
+.display-table-cell{
+    display: table-cell;
+}
+.fixed-table-layout{
+    table-layout: fixed;
+}
+.list-style-none{
+    list-style: none;
+}
+.hidden{
+    display: none;
+}
+.white-space-fix{
+    font-size: 0px;
+}
+.text-indent{
+    text-indent: -3000px;
+}
+.top-vertical-align{
+    vertical-align: top;
+}
+.middle-vertical-align{
+    vertical-align: middle;
+}
+.bottom-vertical-align{
+    vertical-align: bottom;
+}
+.clearfix{
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.right-text-align{
+    text-align: right;
+}
+.left-text-align{
+    text-align: left;
+}
+.center-text-align{
+    text-align: center;
+}
+.background-repeat-x{
+    background-repeat: repeat-x;
+}
+.background-repeat-y{
+    background-repeat: repeat-y;
+}
+.background-repeat-xy{
+    background-repeat: repeat;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+body{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
