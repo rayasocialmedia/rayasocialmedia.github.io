@@ -37,6 +37,7 @@ body {
 	color:#555554;
 }
 
+
 table{
 	font-size:16px;
 }
@@ -248,6 +249,7 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #f05822;
+	border:#f3f3f3 solid 2px;
 }
 
 .btn-xl:hover,
@@ -374,14 +376,14 @@ ul.certificate-icons li{
 }
 
 .intro-lead-in img{
-	max-width:520px;
-	max-height:192px;
+	max-width:500px;
+	max-height:240px;
 }
 
 
 @media(max-width:768px){
 	.intro-lead-in img{
-		width:70%;
+
 	}
 }
 
@@ -420,7 +422,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.png);
+    background-image: url(../img/raya_social_media_hello.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -430,13 +432,7 @@ header {
 	background-attachment:fixed;
 }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -454,7 +450,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 180px;
         padding-bottom: 200px;
     }
 
@@ -586,7 +582,7 @@ section h3.section-subheading {
     }
 	
 	.intro-lead-in img{
-		width:60%;
+
 	}
 }
 
@@ -916,6 +912,7 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+	border:#f3f3f3 solid 1px;
 }
 
 ul.social-buttons li a:hover,
@@ -1036,5 +1033,13 @@ body {
 	
 	.navbar-brand img{
 		width:105px;
+	}
+	
+	.intro-lead-in img{
+		padding-top:100px;
+	}
+	
+	ul.header-buttons{
+		height:50px;
 	}
 }
